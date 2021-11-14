@@ -1,0 +1,20 @@
+h4 {
+  color: red;
+  font-family: sans-serif;
+}
+
+p{
+  font-size: 17px;
+}
+
+li {
+  color: green;
+}
+
+.my-title {
+  font-family: cursive;
+}
+
+#very-special-sentence {
+  background-color: pink;
+}

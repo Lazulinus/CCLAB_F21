@@ -1,0 +1,9 @@
+#box{
+  background-color: lavender;
+  width: 200px;
+  height: 150px;
+
+  position: absolute;
+  left: 110px;
+  top: 170px;
+}
