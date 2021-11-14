@@ -1,19 +1,3 @@
-console.log ("loaded")
-
-function setup() {
-  sliderBgR = document.getElementById('bg-r')
-  sliderBgG = document.getElementById('bg-g')
-  sliderBgB = document.getElementById('bg-b')
-}
-
-function draw(){
-let r = sliderBgR.value;
-let g = sliderBgG.value;
-let b = sliderBgB.value;
-background (r, g, b);
-}
-
-/*
 let SLIME_SIZE = 75;
 let slimes = [];
 let elementNames = [
@@ -488,44 +472,3 @@ class ElementalReaction {
     pop();
   }
 }
-
-
-*/
-
-
-
-// let newBtn = document.createElement('button');
-//
-// newBtn.style.width = "50px";
-// newBtn.style.height = "50px";
-// newBtn.style.margin = "10px";
-//
-// // newBtn.addEventListener("click", change);
-// //or
-// //anonymous fuction
-// newBtn.addEventListener("click", function(){
-//   let body = document.body;
-//   let r = Math.floor(Math.random()*255);
-//   let g = Math.floor(Math.random()*255);
-//   let b = Math.floor(Math.random()*255);
-//   body.style.backgroundColor = "rgb("+r+","+g+","+b+")";
-// });
-//
-//
-// document.body.appendChild(newBtn);
-//
-// function change(){
-//   let body = document.body;
-//   let r = Math.floor(Math.random()*255);
-//   let g = Math.floor(Math.random()*255);
-//   let b = Math.floor(Math.random()*255);
-//   body.style.backgroundColor = "rgb("+r+","+g+","+b+")";
-// }
-
-// let newDiv = document.createElement('div');
-// newDiv.style.backgroundColor = "gray";
-// newDiv.style.width ="100px";
-// newDiv.style.width ="100px";
-// newDiv.style.width ="10px";
-//
-// document.body.appendChild(newDiv)
