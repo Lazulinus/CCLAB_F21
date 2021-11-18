@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.img-container{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 100px;
+
+}

@@ -1,0 +1,26 @@
+html, body {
+  margin: 10px;
+  padding: 0;
+  background-color: lightpink;
+}
+
+#p5-canvas {
+  position: absolute;
+  left: 300px;
+  top: 60px;
+}
+
+.box{
+  background-color: pink;
+  width: 200px;
+  height: 180px;
+  border-width: 2px;
+  border-color: grey;
+  border-style: dashed;
+/* x, y position */
+  margin: 50px;
+/* text x, y position */
+  padding: 20px;
+  /* padding: top/bottom, left/right; */
+  /* padding: top, right, bottom, left; */
+}

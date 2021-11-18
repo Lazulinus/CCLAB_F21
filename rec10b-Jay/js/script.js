@@ -10,34 +10,80 @@ let elementNames = [
   "Pyro",
 ];
 let reactions = [];
+let radioAnemo;
+let radioCryo;
+let radioDendro;
+let radioElectro;
+let radioGeo;
+let radioHydro;
+let radioPyro;
 
 function setup() {
   let canvas = createCanvas(400, 400);
   canvas.id("p5-canvas");
+  radioAnemo = document.getElementById("radio-Anemo");
+  radioCryo = document.getElementById("radio-Cryo");
+  radioDendro = document.getElementById("radio-Dendro");
+  radioElectro = document.getElementById("radio-Electro");
+  radioGeo = document.getElementById("radio-Geo");
+  radioHydro = document.getElementById("radio-Hydro");
+  radioPyro = document.getElementById("radio-Pyro");
 }
 
+/*
 function keyTyped() {
-  if (key === "1") {
-    slimes.push(new Slime(mouseX, mouseY, "Anemo"));
-  } else if (key === "2") {
-    slimes.push(new Slime(mouseX, mouseY, "Cryo"));
-  } else if (key === "3") {
-    slimes.push(new Slime(mouseX, mouseY, "Dendro"));
-  } else if (key === "4") {
-    slimes.push(new Slime(mouseX, mouseY, "Electro"));
-  } else if (key === "5") {
-    slimes.push(new Slime(mouseX, mouseY, "Geo"));
-  } else if (key === "6") {
-    slimes.push(new Slime(mouseX, mouseY, "Hydro"));
-  } else if (key === "7") {
-    slimes.push(new Slime(mouseX, mouseY, "Pyro"));
-  }
+if (key === "1") {
+slimes.push(new Slime(mouseX, mouseY, "Anemo"));
+} else if (key === "2") {
+slimes.push(new Slime(mouseX, mouseY, "Cryo"));
+} else if (key === "3") {
+slimes.push(new Slime(mouseX, mouseY, "Dendro"));
+} else if (key === "4") {
+slimes.push(new Slime(mouseX, mouseY, "Electro"));
+} else if (key === "5") {
+slimes.push(new Slime(mouseX, mouseY, "Geo"));
+} else if (key === "6") {
+slimes.push(new Slime(mouseX, mouseY, "Hydro"));
+} else if (key === "7") {
+slimes.push(new Slime(mouseX, mouseY, "Pyro"));
 }
+}
+*/
+
 
 function mousePressed() {
+  /*
   let randomIndex = floor(random(elementNames.length));
   let name = elementNames[randomIndex];
   slimes.push(new Slime(mouseX, mouseY, name));
+  */
+}
+
+function buttonPressed() {
+  let randomIndex = floor(random(elementNames.length));
+
+  let x = random(width);
+  let y = random(height);
+
+  //let name = elementNames[randomIndex];
+  let name = "Anemo";
+  if (radioAnemo.checked) {
+    name = "Anemo";
+  } else if (radioCryo.checked) {
+    name = "Cryo";
+  } else if (radioDendro.checked) {
+    name = "Dendro";
+  } else if (radioElectro.checked) {
+    name = "Electro";
+  } else if (radioGeo.checked) {
+    name = "Geo";
+  } else if (radioHydro.checked) {
+    name = "Hydro";
+  } else if (radioPyro.checked) {
+    name = "Pyro";
+  }
+
+  slimes.push(new Slime(x, y, name));
 }
 
 function draw() {
