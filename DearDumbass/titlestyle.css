@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+a:link, a:visited {
+  color: rgb(255, 255, 255);
+}
+
+#title {
+  position: relative;
+  top: 80px;
+  margin-left: 30%;
+  margin-right: 30%;
+  outline-style: dashed;
+  outline-width: thick;
+  outline-color: rgb(57, 99, 77);
+  background-color: rgb(57, 99, 77);
+  padding: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 96px;
+  font-family: 'VT323', monospace;
+}
+
+#h1{
+  position: relative;
+  top: 110px;
+  text-align: center;
+  color: rgb(100, 139, 127);
+  font-size: 73px;
+  font-family: 'VT323', monospace;
+}
+
+#h2{
+  position: relative;
+  top: 110px;
+  text-align: center;
+  color: rgb(220, 216, 176);
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+}
+
+#h3{
+  position: relative;
+  top: 110px;
+  text-align: center;
+  color: rgb(175, 188, 143);
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+}
+
+#playbutton1{
+  position: relative;
+  top: 170px;
+  margin-left: 30%;
+  margin-right: 30%;
+  bottom: 150px;
+  border-radius: 7px;
+  background-color: rgb(57, 99, 77);
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-family: 'VT323', monospace;
+}
+
+#space{
+  display: none;
+  position: relative;
+  top: 260px;
+  margin-left: 30%;
+  margin-right: 30%;
+  bottom: 150px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-family: 'VT323', monospace;
+}
