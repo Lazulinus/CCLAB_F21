@@ -23,7 +23,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(240*5, 145*5);
+
+  let canvas = createCanvas(240*5, 145*5);
+  canvas.id("p5-canvas");
 
   frameRate(12);
 

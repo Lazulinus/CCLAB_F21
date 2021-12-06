@@ -32,8 +32,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 240px;
-  left: 360px;
+  top: 250px;
+  left: 450px;
 }
 
 #popup2{
@@ -50,8 +50,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 660px;
-  left: 220px;
+  top: 690px;
+  left: 360px;
 }
 
 #popup3{
@@ -68,8 +68,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 300px;
-  left: 470px;
+  top: 340px;
+  left: 650px;
 }
 
 #popup4{
@@ -86,8 +86,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 685px;
-  left: 1020px;
+  top: 715px;
+  left: 1140px;
 }
 
 #popup5{
@@ -104,15 +104,28 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 200px;
-  left: 1020px;
+  top: 140px;
+  left: 1120px;
+}
+
+#p5-canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+#header{
+margin: 0px;
 }
 
 #title{
 position: fixed;
+margin-top: 0px;
 padding-left: 50px;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 15px;
+padding-bottom: 10px;
 width: 100%;
 background-color: rgb(114, 148, 130);
 color: rgb(57, 99, 77);
@@ -121,11 +134,11 @@ font-family: 'VT323', monospace;
 }
 
 #poem{
-  position: absolute;
-  top: 140px;
-  bottom:120px;
-  left: 160px;
-  right: 160px;
+  /* position: absolute; */
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 760px;
   border-radius: 4px;
   outline-width: thick;
   outline-style: solid;
@@ -142,10 +155,11 @@ font-family: 'VT323', monospace;
 }
 
 #explanation{
-  position: absolute;
-  top: 640px;
-  left: 80px;
-  right: 80px;
+  /* position: absolute; */
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 110px;
+  margin-bottom:60px;
   border-radius: 2px;
   outline-width: thick;
   outline-style: double;
