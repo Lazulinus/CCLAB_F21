@@ -32,8 +32,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 250px;
-  left: 450px;
+  top: 220px;
+  left: 470px;
 }
 
 #popup2{
@@ -50,7 +50,7 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 690px;
+  top: 715px;
   left: 360px;
 }
 
@@ -69,7 +69,7 @@ a:link, a:visited {
   font-size: 25px;
   font-family: 'VT323', monospace;
   top: 340px;
-  left: 650px;
+  left: 550px;
 }
 
 #popup4{
@@ -87,7 +87,7 @@ a:link, a:visited {
   font-size: 25px;
   font-family: 'VT323', monospace;
   top: 715px;
-  left: 1140px;
+  left: 1130px;
 }
 
 #popup5{
@@ -104,8 +104,8 @@ a:link, a:visited {
   padding-bottom: 4px;
   font-size: 25px;
   font-family: 'VT323', monospace;
-  top: 140px;
-  left: 1120px;
+  top: 120px;
+  left: 1130px;
 }
 
 #p5-canvas {
