@@ -1,24 +1,40 @@
 html, body {
-  margin: 10px;
-  padding: 0;
-  background-color: lightpink;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(195, 233, 238);
 }
 
 #p5-canvas {
   position: absolute;
-  left: 300px;
-  top: 60px;
+  left: 500px;
+  top: 218px;
 }
 
-.box{
-  background-color: pink;
-  width: 200px;
-  height: 180px;
-  border-width: 2px;
-  border-color: grey;
-  border-style: dashed;
+#heading {
+  position: relative;
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: rgb(143, 178, 208);
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 48px;
+}
+
+#selector {
+  background-color: rgb(142, 196, 203);
+  color: white;
+  width: 300px;
+  height: 350px;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: rgb(28, 111, 138);
+  border-style: double;
 /* x, y position */
-  margin: 50px;
+  margin-top: 145px;
+  margin-left: 70px;
 /* text x, y position */
   padding: 20px;
   /* padding: top/bottom, left/right; */

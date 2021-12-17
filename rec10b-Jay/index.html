@@ -3,49 +3,59 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Luckiest+Guy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/lib/p5.js" type="text/javascript"></script>
 </head>
 <body>
   <!-- Add HTML Elements -->
-  <p>Choose Element to Generate Slime!:</p>
-  <div>
-    <input name="select-element" id="radio-Anemo" type="radio" />
-    <label for="radio-Anemo">Anemo</label>
-  </div>
-  <div>
-    <input name="select-element" id="radio-Cryo" type="radio" />
-    <label for="radio-Cryo">Cryo</label>
+  <div id="heading">
+    SLIME REACTIONS
   </div>
 
-  <div>
-    <input name="select-element" id="radio-Dendro" type="radio" />
-    <label for="radio-Dendro">Dendro</label>
+  <div id="selector">
+    <p>Choose Element to Generate Slime!:</p>
+    <div>
+      <input name="select-element" id="radio-Anemo" type="radio" />
+      <label for="radio-Anemo">Anemo</label>
+    </div>
+    <div>
+      <input name="select-element" id="radio-Cryo" type="radio" />
+      <label for="radio-Cryo">Cryo</label>
+    </div>
+
+    <div>
+      <input name="select-element" id="radio-Dendro" type="radio" />
+      <label for="radio-Dendro">Dendro</label>
+    </div>
+
+    <div>
+      <input name="select-element" id="radio-Electro" type="radio" />
+      <label for="radio-Electro">Electro</label>
+    </div>
+
+    <div>
+      <input name="select-element" id="radio-Geo" type="radio" />
+      <label for="radio-Geo">Geo</label>
+    </div>
+
+    <div>
+      <input name="select-element" id="radio-Hydro" type="radio" />
+      <label for="radio-Hydro">Hydro</label>
+    </div>
+
+    <div>
+      <input name="select-element" id="radio-Pyro" type="radio" />
+      <label for="radio-Pyro">Pyro</label>
+    </div>
+    <br>
+    <div>
+      <button onclick="buttonPressed()"type="button" name="">Create Slime!</button>
+    </div>
   </div>
 
-  <div>
-    <input name="select-element" id="radio-Electro" type="radio" />
-    <label for="radio-Electro">Electro</label>
-  </div>
-
-  <div>
-    <input name="select-element" id="radio-Geo" type="radio" />
-    <label for="radio-Geo">Geo</label>
-  </div>
-
-  <div>
-    <input name="select-element" id="radio-Hydro" type="radio" />
-    <label for="radio-Hydro">Hydro</label>
-  </div>
-
-  <div>
-    <input name="select-element" id="radio-Pyro" type="radio" />
-    <label for="radio-Pyro">Pyro</label>
-  </div>
-  <br>
-  <div>
-    <button onclick="buttonPressed()"type="button" name="">Create Slime!</button>
-  </div>
 
   <script src="js/script.js" type="text/javascript"></script>
 
